@@ -17,7 +17,7 @@
 
 - [PRD v0.4](docs/PRD.md)：功能范围、8 个页面的交互说明、数据规则和验收标准。
 - [带原型图的 PRD PDF](output/pdf/cheki-diary-prd.pdf)：14 页，适合阅读和评审。
-- [可点击产品原型](docs/prototype/index.html)：快速记录、按日补录、当日详情、档案与特殊收藏、统计、相册与数据管理。
+- [可点击产品原型](docs/prototype/index.html)：快速记录、按日补录、当日详情、偶像与特殊收藏、统计、相册与数据管理。
 - [当前需求基线](docs/requirements.md)：需求讨论的基线。
 
 ![记录流程原型](docs/prototype/recording-overview.png)
