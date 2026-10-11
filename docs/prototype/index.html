@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>推活日记 · 产品交互原型</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="studio">
+    <aside class="rail">
+      <a class="brand" href="?screen=home"><span class="brand-mark">切</span><span>推活日记<small>CHEKI DIARY</small></span></a>
+      <div class="edition">PRODUCT PROTOTYPE · 01</div>
+      <h1>把见面的瞬间，<br>好好留下。</h1>
+      <p class="rail-intro">沿着日期，记住每次见面。<br>活动选填，照片可以慢慢补。</p>
+      <nav id="scene-nav" aria-label="原型页面"></nav>
+      <div class="rail-bottom"><span class="status-dot"></span>可点击体验 · 使用虚构演示数据<br><button id="reset-demo" class="text-button">重置演示数据</button><a href="../PRD.md">阅读产品需求文档 ↗</a></div>
+    </aside>
+    <main class="stage">
+      <div class="stage-caption"><span id="scene-index">01 / 08</span><span>MOBILE · 390 × 844</span></div>
+      <section class="phone" aria-label="推活日记手机原型">
+        <div class="statusbar"><span>9:41</span><div><span class="signal">▂▄▆</span><span>⌁</span><span class="battery"></span></div></div>
+        <div id="app"></div>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+        <div id="modal"></div>
+        <div class="home-indicator"></div>
+      </section>
+      <div class="stage-footer">交互原型 v0.4 <span>2026.10.11</span></div>
+    </main>
+    <aside class="notes"><div class="eyebrow">DESIGN NOTES</div><h2 id="note-title"></h2><p id="note-intro"></p><ol id="note-items"></ol><div class="note-rule"><span>贯穿所有页面</span><p>张数由记录决定。<br>照片可以晚一点补。<br>没填金额，不等于零元。</p></div><p class="prototype-disclaimer">这是用于讨论流程的产品原型，尚未连接服务端。所有人物、团体与活动均为虚构。平台和技术方案待定。</p></aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
